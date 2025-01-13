@@ -11,8 +11,10 @@ export const Basket = () => {
     }
     useEventSubscribe(EventName.addBasketItem, handleAddBasketItem);
 
-    return <div>
-        <BiBasket size={25} title='basket' />
+    return <>
+        <div>
+            <BiBasket size={25} title='basket' />
+        </div>
         {notification && <NotificationBox key={notification.id} id={notification.id} />}
-    </div>;
+    </>;
 }
