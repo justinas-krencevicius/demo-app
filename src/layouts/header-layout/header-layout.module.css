@@ -1,5 +1,6 @@
 .subheader {
-    justify-content: center;
     display: flex;
-    margin-bottom: 4rem;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 1rem;
 }
